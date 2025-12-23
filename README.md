@@ -58,10 +58,10 @@ EDA dilakukan untuk memahami karakteristik data teks dan distribusi kelas emosi.
 
 | Analisis | Visualisasi |
 |--------|------------|
-| Distribusi Panjang Kalimat | *<img width="642" height="393" alt="image" src="https://github.com/user-attachments/assets/25bf9510-72bf-4715-9daa-ea1c8ad26328" />
-* |
-| Distribusi Kelas Emosi | *<img width="713" height="439" alt="image" src="https://github.com/user-attachments/assets/639e8578-283e-4dd3-b6fe-5d65d6c71df1" />
-* |
+| Distribusi Panjang Kalimat | <img width="642" height="393" alt="image" src="https://github.com/user-attachments/assets/25bf9510-72bf-4715-9daa-ea1c8ad26328" />
+|
+| Distribusi Kelas Emosi | <img width="713" height="439" alt="image" src="https://github.com/user-attachments/assets/639e8578-283e-4dd3-b6fe-5d65d6c71df1" />
+|
 
 📌 **Insight EDA (Ringkas):**
 - Panjang kalimat bervariasi dan didominasi teks pendek
@@ -116,18 +116,18 @@ Berikut tabel tempat kamu bisa sisipkan gambar hasil evaluasi:
 
 | Model | Confusion Matrix | Loss Curve | Accuracy Curve |
 |-------|------------------|------------|----------------|
-| **LSTM** | *<img width="528" height="435" alt="image" src="https://github.com/user-attachments/assets/c8306c54-c3ed-4ac5-97dd-dfe95874cdf6" />
-* | *<img width="536" height="393" alt="image" src="https://github.com/user-attachments/assets/05d3f875-15db-4a26-bbc4-7dca24973515" />
-* | *<img width="536" height="393" alt="image" src="https://github.com/user-attachments/assets/d3e46cd7-61be-44c4-a392-3cc154dce5e3" />
-* |
+| **LSTM** | <img width="528" height="435" alt="image" src="https://github.com/user-attachments/assets/c8306c54-c3ed-4ac5-97dd-dfe95874cdf6" />
+ | *<img width="536" height="393" alt="image" src="https://github.com/user-attachments/assets/05d3f875-15db-4a26-bbc4-7dca24973515" />
+  | *<img width="536" height="393" alt="image" src="https://github.com/user-attachments/assets/d3e46cd7-61be-44c4-a392-3cc154dce5e3" />
+|
 | **BERT** | *<img width="695" height="584" alt="image" src="https://github.com/user-attachments/assets/ece5605a-b07a-46a4-81c6-9572f9515507" />
-* | *<img width="516" height="351" alt="image" src="https://github.com/user-attachments/assets/c8d7afa7-5498-451d-a341-3db2046a684d" />
-* | *<img width="534" height="351" alt="image" src="https://github.com/user-attachments/assets/b3eef260-2aa7-4921-b00e-b0c21992d007" />
-* |
-| **DistilBERT** | *<img width="695" height="584" alt="image" src="https://github.com/user-attachments/assets/eeb26357-1fc2-4163-9824-7edc40066e67" />
-* | *<img width="516" height="374" alt="image" src="https://github.com/user-attachments/assets/b56194c4-af05-460a-b7ca-72de146fab1f" />
-* | *<img width="534" height="374" alt="image" src="https://github.com/user-attachments/assets/0f82c736-ac68-4532-b8d9-cefc069538ea" />
-* |
+| *<img width="516" height="351" alt="image" src="https://github.com/user-attachments/assets/c8d7afa7-5498-451d-a341-3db2046a684d" />
+| *<img width="534" height="351" alt="image" src="https://github.com/user-attachments/assets/b3eef260-2aa7-4921-b00e-b0c21992d007" />
+|
+| **DistilBERT** | <img width="695" height="584" alt="image" src="https://github.com/user-attachments/assets/eeb26357-1fc2-4163-9824-7edc40066e67" />
+| <img width="516" height="374" alt="image" src="https://github.com/user-attachments/assets/b56194c4-af05-460a-b7ca-72de146fab1f" />
+| <img width="534" height="374" alt="image" src="https://github.com/user-attachments/assets/0f82c736-ac68-4532-b8d9-cefc069538ea" />
+|
 
 ---
 
@@ -152,21 +152,23 @@ Langkah-langkah singkat untuk menjalankan aplikasi secara lokal:
 ```bash
 git clone https://github.com/RositaDy/UAP-MACHINE-LEARNING.git
 cd UAP-MACHINE-LEARNING
+```
 
 2️⃣ Install Dependencies
-
 Gunakan file requirements.txt yang sudah tersedia:
-
+```bash
 pip install -r requirements.txt
-
+```
 ⚠️ Disarankan memakai Python 3.10+
 
 3️⃣ Run the Streamlit App
+```bash
 streamlit run app.py
-
+```
 Setelah itu, buka browser dan kunjungi:
-
+```bash
 http://localhost:8501
+```
 
 | Feature | appearance | 
 |-------|----------|
@@ -176,10 +178,9 @@ http://localhost:8501
 
 ---
 ###
-Student Info !!!
+## Student Info !!!
 👩‍💻Rosita Dwi Yulianti
 🎓Teknik Informatika — Universitas Muhammadiyah Malang
 📘NIM: 202210370311368
-
 
 
