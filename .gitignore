@@ -16,8 +16,6 @@ env/
 # ======================
 # Machine Learning Models (WAJIB)
 # ======================
-Model/BERT/
-Model/DISTILBERT/
 Model/**/*.safetensors
 Model/**/*.bin
 
