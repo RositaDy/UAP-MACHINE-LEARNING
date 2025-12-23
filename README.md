@@ -1,4 +1,4 @@
-# 🎭 Emotion Classification — Deep Learning Text Classifier
+#                                           🎭 Emotion Classification — Text emotion classification using LSTM, BERT, and DistilBERT
 
 <p align="center">
   <img src="https://img.shields.io/badge/Streamlit-Web%20App-blue?logo=streamlit" alt="Streamlit">
@@ -98,9 +98,9 @@ Sebelum dilakukan pelatihan model, data dipersiapkan melalui beberapa tahapan si
 
 | Name Model | Accuracy | Analysis results |
 |-------|----------|-------|
-| **LSTM** | 0.55 | Bagus untuk baseline, kurang peka konteks panjang |
-| **BERT** | 0.66 | Akurasi tertinggi dengan pemahaman konteks solid |
-| **DistilBERT** | 0.67 | Trade-off cepat + akurasi mendekati BERT |
+| **LSTM** | 0.55 | Model LSTM memiliki akurasi terendah karena tidak menggunakan pretrained embedding (seperti GloVe atau FastText), sehingga representasi kata bersifat terbatas. Tokenisasi yang digunakan bersifat statis dan tidak kontekstual, membuat model sulit membedakan emosi dengan makna yang mirip. Berdasarkan kode implementasi, LSTM hanya mengandalkan padding dan embedding dasar, sehingga kurang mampu menangkap hubungan semantik kompleks dalam teks emosi. |
+| **BERT** | 0.66 | BERT menunjukkan peningkatan akurasi yang signifikan karena menggunakan pretrained language model dengan mekanisme self-attention dua arah. Hal ini membuat BERT lebih kuat dalam memahami konteks kalimat dan emosi implisit. Namun, performanya masih terbatas akibat fine-tuning yang dilakukan dengan jumlah epoch terbatas dan tanpa GPU (CPU-only), sehingga potensi model belum dimanfaatkan secara maksimal. |
+| **DistilBERT** | 0.67 | DistilBERT mampu melampaui BERT karena arsitekturnya yang lebih ringan dan stabil saat pelatihan terbatas. Model ini menggunakan pendekatan knowledge distillation, sehingga mempertahankan informasi penting dari BERT dengan jumlah parameter yang lebih sedikit. Akibatnya, DistilBERT memiliki generalisasi yang lebih baik dan risiko overfitting yang lebih rendah, serta sangat cocok untuk implementasi sistem berbasis Streamlit. |
 
 
 ---
@@ -166,6 +166,11 @@ http://localhost:8501
 | 🔎 Probabilities |<img width="1154" height="828" alt="image" src="https://github.com/user-attachments/assets/a6df1e8b-b078-447f-bbed-257f4e27b721" /> |
 
 ---
+###
+## Link Live DEMO:
+[Streamlit App][(https://xxxx.streamlit.app](https://uap-machine-learning-w2nrkr37xtxaq2shkxqpue.streamlit.app/))
+
+
 ###
 ## Student Info !!!
 👩‍💻Rosita Dwi Yulianti
