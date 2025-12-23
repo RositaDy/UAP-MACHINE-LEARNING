@@ -15,14 +15,6 @@ from transformers import (
     DistilBertTokenizer,
     DistilBertForSequenceClassification
 )
-
-import os
-import streamlit as st
-
-st.write("ROOT:", os.listdir("."))
-st.write("MODEL:", os.listdir("Model"))
-st.write("LSTM:", os.listdir("Model/LSTM"))
-
 # =====================================================
 # KONFIGURASI
 # =====================================================
