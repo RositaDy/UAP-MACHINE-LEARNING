@@ -102,13 +102,12 @@ Sebelum dilakukan pelatihan model, data dipersiapkan melalui beberapa tahapan si
 | **BERT** | 0.66 | Akurasi tertinggi dengan pemahaman konteks solid |
 | **DistilBERT** | 0.67 | Trade-off cepat + akurasi mendekati BERT |
 
-> **Note:** Gantilah `XX%` dengan angka hasil evaluasi kamu.
 
 ---
 
 ## 📌 Results Visualization
 
-Berikut tabel tempat kamu bisa sisipkan gambar hasil evaluasi:
+Berikut tabel  hasil evaluasi dari ketiga model:
 
 ### Confusion Matrix & Learning Curves
 
@@ -161,9 +160,10 @@ http://localhost:8501
 
 | Feature | appearance | 
 |-------|----------|
-| 📝 Input Form | ** | 
-| 📊 Result View | ** | 
-| 🔎 Probabilities | ** |
+| ℹ️ Sidebar | <img width="498" height="1526" alt="image" src="https://github.com/user-attachments/assets/af92635e-17ce-4f19-bdea-afa299d08933" /> |
+| 📝 Input Form | <img width="2880" height="1563" alt="image" src="https://github.com/user-attachments/assets/5dbde0ea-e4c9-41d8-ba3b-9ef9650d9747" /> | 
+| 📊 Result View | <img width="1174" height="628" alt="image" src="https://github.com/user-attachments/assets/437b0f20-cedc-4f3e-b0b6-3ee93ade7ab1" /> | 
+| 🔎 Probabilities |<img width="1154" height="828" alt="image" src="https://github.com/user-attachments/assets/a6df1e8b-b078-447f-bbed-257f4e27b721" /> |
 
 ---
 ###
