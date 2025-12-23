@@ -168,7 +168,7 @@ http://localhost:8501
 ---
 ###
 ## Link Live DEMO:
-[Streamlit App][(https://xxxx.streamlit.app)](https://uap-machine-learning-w2nrkr37xtxaq2shkxqpue.streamlit.app/)]
+[Streamlit App][(Link Dashboard)](https://uap-machine-learning-w2nrkr37xtxaq2shkxqpue.streamlit.app/)]
 
 
 ###
