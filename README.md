@@ -46,7 +46,7 @@ Setiap entri terdiri dari:
 | `Sentence` | Kalimat atau teks yang diekspresikan |
 | `Label` | Label emosi dari teks tersebut |
 
-📌 Dataset ini digunakan untuk melakukan pelatihan dan pengujian model NLP.
+📌 Dataset ini digunakan untuk melakukan pelatihan dan pengujian model ML.
 
 ---
 
@@ -88,9 +88,9 @@ Sebelum dilakukan pelatihan model, data dipersiapkan melalui beberapa tahapan si
 
 | Model | Type | Description |
 |-------|------|-------------|
-| **LSTM** | RNN | Model berbasis LSTM yang menangkap informasi sekuensial dalam teks. |
-| **BERT** | Transformer | Model pretrained transformer yang memahami konteks dua arah. |
-| **DistilBERT** | Transformer (Lite) | Versi lebih ringan dari BERT dengan performa kompetitif. |
+| **LSTM** | Neural Network Base (Non-Pretrained) | Model berbasis LSTM yang menangkap informasi sekuensial dalam teks. |
+| **BERT** | Model Pretrained (Transfer Learning) | Model pretrained transformer yang memahami konteks dua arah. |
+| **DistilBERT** | Model Pretrained (Transfer Learning) | Versi lebih ringan dari BERT dengan performa kompetitif. |
 
 ---
 
