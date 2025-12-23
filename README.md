@@ -1,4 +1,4 @@
-#                                           🎭 Emotion Classification — Text emotion classification using LSTM, BERT, and DistilBERT
+#                                                       🎭 Emotion Classification — Text emotion classification using LSTM, BERT, and DistilBERT
 
 <p align="center">
   <img src="https://img.shields.io/badge/Streamlit-Web%20App-blue?logo=streamlit" alt="Streamlit">
@@ -168,7 +168,7 @@ http://localhost:8501
 ---
 ###
 ## Link Live DEMO:
-[Streamlit App][(Link Dashboard)](https://uap-machine-learning-w2nrkr37xtxaq2shkxqpue.streamlit.app/)]
+[Streamlit App][(Link Dashboard)](https://uap-machine-learning-w2nrkr37xtxaq2shkxqpue.streamlit.app/)
 
 
 ###
