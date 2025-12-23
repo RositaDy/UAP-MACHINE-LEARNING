@@ -1,0 +1,36 @@
+# ======================
+# Python cache
+# ======================
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# ======================
+# Virtual environment
+# ======================
+.venv/
+env/
+
+# ======================
+# Machine Learning Models (WAJIB)
+# ======================
+Model/BERT/
+Model/DISTILBERT/
+Model/**/*.safetensors
+Model/**/*.bin
+
+# Jika mau LSTM disimpan, HAPUS baris ini
+# Model/LSTM/
+
+# ======================
+# Dataset besar (opsional)
+# ======================
+*.csv
+
+# ======================
+# OS & Editor
+# ======================
+.DS_Store
+Thumbs.db
