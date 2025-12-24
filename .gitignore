@@ -19,6 +19,10 @@ env/
 Model/**/*.safetensors
 Model/**/*.bin
 
+# But allow configs
+!Model/BERT/**
+!Model/DISTILBERT/**
+
 # Jika mau LSTM disimpan, HAPUS baris ini
 # Model/LSTM/
 
