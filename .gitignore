@@ -20,8 +20,19 @@ Model/**/*.safetensors
 Model/**/*.bin
 
 # But allow configs
-!Model/BERT/**
-!Model/DISTILBERT/**
+!Model/BERT/
+!Model/BERT/config.json
+!Model/BERT/tokenizer_config.json
+!Model/BERT/special_tokens_map.json
+!Model/BERT/vocab.txt
+!Model/BERT/bert_trainer_log.json
+
+!Model/DISTILBERT/
+!Model/DISTILBERT/config.json
+!Model/DISTILBERT/tokenizer_config.json
+!Model/DISTILBERT/special_tokens_map.json
+!Model/DISTILBERT/vocab.txt
+!Model/DISTILBERT/distilbert_trainer_log.json
 
 # Jika mau LSTM disimpan, HAPUS baris ini
 # Model/LSTM/
